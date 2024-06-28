@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio--me/static/css/main.8255fd93.css",
+    "main.js": "/portfolio--me/static/js/main.acab1622.js",
+    "static/js/453.ed3810f9.chunk.js": "/portfolio--me/static/js/453.ed3810f9.chunk.js",
+    "static/media/fa-solid-900.ttf": "/portfolio--me/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/product.jpg": "/portfolio--me/static/media/product.654a233fa6b0fe249ca9.jpg",
+    "static/media/fa-brands-400.ttf": "/portfolio--me/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/portfolio--me/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/praveenimg.jpg": "/portfolio--me/static/media/praveenimg.8c44579ee52919e7b0c8.jpg",
+    "static/media/fa-brands-400.woff2": "/portfolio--me/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/fa-regular-400.ttf": "/portfolio--me/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/sent_an.jpg": "/portfolio--me/static/media/sent_an.202945807198fa58819e.jpg",
+    "static/media/career.jpg": "/portfolio--me/static/media/career.71a1588aa99fa375bef3.jpg",
+    "static/media/fa-regular-400.woff2": "/portfolio--me/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/fa-v4compatibility.ttf": "/portfolio--me/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/portfolio--me/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/portfolio--me/index.html",
+    "main.8255fd93.css.map": "/portfolio--me/static/css/main.8255fd93.css.map",
+    "main.acab1622.js.map": "/portfolio--me/static/js/main.acab1622.js.map",
+    "453.ed3810f9.chunk.js.map": "/portfolio--me/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8255fd93.css",
+    "static/js/main.acab1622.js"
+  ]
+}
