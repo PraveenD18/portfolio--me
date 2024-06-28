@@ -1,38 +1,172 @@
-.App {
-  text-align: center;
+.container-custom {
+  padding: 50px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.port-container {
+  padding: 20px;
+  margin: 20px;
+  max-width: 1500px;
+  background-color: #000000;
+  border-radius: 0px;
+  box-shadow:-1px 2px 8px 2px #2f2f2f;
+  display: inline-flexbox;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+   top: 20px;
+}
+.rhr {
+  height: 1px;
+  background-color: #7e7e7e;
+  margin: 20px;
+  margin-left: 20px; /* Adjust spacing as needed */
+}
+.pic-container {
+  margin: 20px;
+  max-width: 1500px;
+  background: linear-gradient(to right, #adadad, #f1f1f1);
+  border-radius: 2px;
+  
+}
+.hello-container {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  max-width: 1500px;
+  background: linear-gradient(to right, #adadad, #f1f1f1);
+  
+ 
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #141414;
+}
+.project-container {
+  padding: 30px;
+  margin: 20px;
+  max-width: 1500px;
+  background-color: #272727;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(133, 126, 126, 0.1);
+}
+.headi{
+  
+  color: rgb(255, 255, 255);
+  font-family:'Times New Roman', Times, serif;
+  /* font-style: italic; */
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links {
+  display: flex;
+  gap: 2em; /* Adjust the gap as needed */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-links h5 {
+  margin: 0; /* Remove default margin */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit; /* or specify a color */
+}
+
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.icons a {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 20px; /* Adjust spacing between icons */
+}
+
+.icons a .layer {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  transition: transform 0.3s;
+}
+
+.icons a:hover .layer {
+  transform: rotate(0 deg) skew(0 deg);  
+  
+}
+/*  */
+.icons a .layer span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgb(117, 115, 115);
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.icons a .layer span.fab {
+  font-size: 30px;
+  line-height: 55px;
+  text-align: center;
+  
+}
+.icons a .layer span.fab.fa-facebook-f {
+  color: #0051ff; /* Facebook blue */
+}
+
+.icons a .layer span.fab.fa-github {
+  color: #ffffff; /* GitHub black */
+}
+
+.icons a .layer span.fab.fa-linkedin-in {
+  color: #00a6ff; /* LinkedIn blue */
+}
+
+.icons a .layer span.fab.fa-instagram {
+  color: #ff00ae; /* Instagram purple */
+}
+.icons a:hover .layer span:nth-child(1) {
+  opacity: 0.8;
+  transform: translate(15px, -15px);
+}
+
+.icons a:hover .layer span:nth-child(2) {
+  opacity: 0.6;
+  transform: translate(10px, -10px);
+}
+
+.icons a:hover .layer span:nth-child(3) {
+  opacity: 0.4;
+  transform: translate(5px, -5px);
+}
+.icons a:hover .layer span:nth-child(4) {
+  opacity: 0.2;
+  
+}
+.icons a .text {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 5px; /* Adjust spacing between icon and text */
+}
+.cont-container{
+  padding: 30px;
+  margin: 20px;
+  max-width: 1500px;
+  background-color: #ececec;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
